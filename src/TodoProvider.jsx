@@ -1,4 +1,4 @@
-import { useState, useReducer, createContext, useEffect } from "react";
+import { useReducer, createContext, useEffect } from "react";
 import useLocalStorage from "./useLocalStorage";
 
 export const TodoContext = createContext();
